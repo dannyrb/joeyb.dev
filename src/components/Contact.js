@@ -21,17 +21,17 @@ const Contact = () => {
                 <li className="media">
                   <i className="ti-map" />
                   <span className="media-body">
-                    123 Stree New York City , United States Of America 750065.
+                    Columbus, Ohio
                   </span>
                 </li>
                 <li className="media">
                   <i className="ti-email" />
-                  <span className="media-body">support@domain.com</span>
+                  <span className="media-body">joey.ma.brown@gmail.com</span>
                 </li>
-                <li className="media">
+                {/* <li className="media">
                   <i className="ti-mobile" />
                   <span className="media-body">+044 9696 9696 3636</span>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
