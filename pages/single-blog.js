@@ -20,7 +20,7 @@ const SingleBlog = () => {
                       <img src="static/img/team-1.jpg" title="" alt="" />
                     </div>
                     <div className="media-body">
-                      <label>Sergio Roth</label>
+                      <label>Joey Brown</label>
                       <span>26 FEB 2022</span>
                     </div>
                   </div>
