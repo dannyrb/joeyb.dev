@@ -47,20 +47,10 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* End Home */}
-      {/* about us */}
       <About />
-      {/* End about us */}
-      {/* Services */}
       <Services />
-      {/* End Services */}
-      {/* Portfolio */}
       <Portfolio />
-      {/* End Portfolio */}
-      {/* Blog */}
       <Blog />
-      {/* End Blog */}
-      {/* Contact us */}
       <Contact />
     </Layout>
   );
