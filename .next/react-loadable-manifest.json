@@ -1,0 +1,16 @@
+{
+  "..\\src\\components\\Services.js -> ./Testimonials": {
+    "id": 6112,
+    "files": [
+      "static/chunks/514.1be2e4221d35afb8.js",
+      "static/chunks/112.421b31e1e3d81532.js"
+    ]
+  },
+  "index.js -> ../src/components/Portfolio": {
+    "id": 9424,
+    "files": [
+      "static/chunks/391.6f5198c99b761316.js",
+      "static/chunks/424.33594b38cfb5d234.js"
+    ]
+  }
+}
