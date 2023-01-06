@@ -24,12 +24,10 @@ const Index = () => {
                   <h6>Hello, I am</h6>
                   <h1 className="font-alt">Joey Brown</h1>
                   <p className="lead">
-                    I Am Passionate <TypingAnimation />
+                    I Am a Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites, web
-                    services and online stores.
+                    I'm a fullstack developer that loves tackling challenging problems, learning new technologies, and consuming obscene amounts of coffee.
                   </p>
                   <div className="btn-bar">
                     <a className="px-btn px-btn-theme" href="#">
