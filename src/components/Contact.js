@@ -7,15 +7,14 @@ const Contact = () => {
     >
       <div className="container">
         <div className="title">
-          <h3>Get in touch.</h3>
+          <h3>Contact Me</h3>
         </div>
         <div className="row">
           <div className="col-lg-5 col-xl-4 m-15px-tb">
             <div className="contact-info">
               <h4>What’s your story? Get in touch</h4>
               <p>
-                Always available for freelancing if the right project comes
-                along, Feel free to contact me.
+                Always open to connect and explore new opportunities.  Feel free to reach out.
               </p>
               <ul>
                 <li className="media">
@@ -37,7 +36,7 @@ const Contact = () => {
           </div>
           <div className="col-lg-7 col-xl-8 m-15px-tb">
             <div className="contact-form">
-              <h4>Say Something</h4>
+              <h4>Shoot Me a Message</h4>
               <form id="contact-form" method="POST">
                 <div className="row">
                   <div className="col-md-6">
@@ -120,7 +119,7 @@ const Contact = () => {
               <div className="embed-responsive embed-responsive-21by9">
                 <iframe
                   className="embed-responsive-item"
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAorcYI6m33-t4WkEhP_CzkLazog2ZvnKE&q=Eiffel+Tower,Paris+France"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBqcWw2ziQslYWonKirddZXOJ29KlcXhas&q=Columbus+Ohio"
                   allowFullScreen=""
                 />
               </div>
