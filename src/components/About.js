@@ -19,18 +19,18 @@ const About = () => {
           <div className="col-lg-6 m-15px-tb">
             <div className="about-info">
               <div className="title">
-                <h3>About me.</h3>
+                <h3>About me</h3>
               </div>
               <div className="about-text">
                 <h3>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                  experience.{" "}
+                  {`I'm`} a Fullstack Developer with experience planning, developing, and delivering professional projects.{" "}
                 </h3>
                 <p>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                  experience. {`I'm`} from San Francisco. I code and create web
-                  elements for amazing people around the world. I like work with
-                  new people. New people new Experiences.
+                  Programing is not only my career, {`it's`} also my passion. 
+                  Nothing is more enjoyable than solving incredibly challenging problems
+                  while working with new technologies.  I look forward to meeting fellow
+                  developers and learning about technologies {`they're`} passionate about.
+                  I can rarely be found without a coffee in hand!
                 </p>
                 <div className="row">
                   <div className="col-auto">
@@ -138,7 +138,7 @@ const About = () => {
         </div>
         <div className="separated" />
         <div className="title">
-          <h3>Experience.</h3>
+          <h3>Experience</h3>
         </div>
         <div className="resume-box">
           <div className="resume-row">
