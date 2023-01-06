@@ -23,37 +23,37 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                  {`I'm`} a Fullstack Developer with experience planning, developing, and delivering professional projects.{" "}
+                  {`I'm`} a Fullstack Developer with experience planning, developing, and delivering applications.{" "}
                 </h3>
                 <p>
                   Programing is not only my career, {`it's`} also my passion. 
                   Nothing is more enjoyable than solving incredibly challenging problems
                   while working with new technologies.  I look forward to meeting fellow
                   developers and learning about technologies {`they're`} passionate about.
-                  I can rarely be found without a coffee in hand!
+                  I can rarely be found without a coffee in hand.
                 </p>
                 <div className="row">
                   <div className="col-auto">
                     <div className="media align-items-center">
-                      <span className="count">5k</span>
+                      <span className="count">1k+</span>
                       <div className="media-body">
-                        Projects <br />
-                        Completed.
+                        Course <br />
+                        Hours.
                       </div>
                     </div>
                   </div>
                   <div className="col-auto">
                     <div className="media align-items-center">
-                      <span className="count">3k</span>
+                      <span className="count">1+</span>
                       <div className="media-body">
-                        Satisfied <br />
-                        Clients.
+                        Years <br />
+                        Experience.
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#contactus">
                     <span>Contact Me</span>
                   </a>
                   <a className="px-btn px-btn-theme" href="#">
