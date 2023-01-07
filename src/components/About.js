@@ -150,15 +150,13 @@ const About = () => {
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
+                  <h6>Software Engineer</h6>
+                  <label>American Motorcyclist Association | Hybrid | Feb 2022 - Present {`(1 year)`}</label>
                   <div className="rb-time">Full Time</div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
+                    {`I'm`} the sole maintainer of over 40 custom applications, spanning 6 domains. I created software that 
+                    simplified registration for 800+ vendors and 40,000+ event attendees. Discovered and documented a
+                    network of interconnected integrations and apps; adding many to source control.
                   </p>
                 </div>
               </div>
@@ -173,8 +171,8 @@ const About = () => {
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
+                  <h6>Engineering Student</h6>
+                  <label>Lambda School {`(now Bloom Institute of Technology)`} | Remote | Jun 2021 - Nov 2021 {`(6 months)`}</label>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -196,8 +194,8 @@ const About = () => {
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
+                  <h6>Software Engineering Intern</h6>
+                  <label>Big Kitty Labs | Remote | Jun 2019 - Dec 2019 {`(6 months)`}</label>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
