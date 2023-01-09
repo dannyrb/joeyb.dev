@@ -145,7 +145,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a1.png" title="" alt="" />
+                  <img src="static/img/ama_logo_spotlight.png" title="AMA Logo" alt="AMA Logo" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
@@ -153,11 +153,11 @@ const About = () => {
                   <h6>Software Engineer</h6>
                   <label>American Motorcyclist Association | Hybrid | Feb 2022 - Present {`(1 year)`}</label>
                   <div className="rb-time">Full Time</div>
-                  <p>
-                    {`I'm`} the sole maintainer of over 40 custom applications, spanning 6 domains. I created software that 
-                    simplified registration for 800+ vendors and 40,000+ event attendees. Discovered and documented a
-                    network of interconnected integrations and apps; adding many to source control.
-                  </p>
+                  <ul>
+                    <li>Sole maintainer of 40 applications that spanned 6 domains</li>
+                    <li>Created software simplifying registration for 800+ vendors and 40,000+ event attendees</li>
+                    <li>Modernized existing web applications to improve the mobile experience and performance for users</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a2.png" title="" alt="" />
+                  <img src="static/img/bloom_tech_logo.png" title="Bloom Technical Institute Logo" alt="Bloom Technical Institute Logo" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
@@ -174,13 +174,11 @@ const About = () => {
                   <h6>Engineering Student</h6>
                   <label>Lambda School {`(now Bloom Institute of Technology)`} | Remote | Jun 2021 - Nov 2021 {`(6 months)`}</label>
                   <div className="rb-time">Full Time</div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
-                  </p>
+                  <ul>
+                    <li>Lead a team of developers building software for a non-profit organization</li>
+                    <li>Orchestrated team standups, 1 on 1 unblocking sessions, and pair programming</li>
+                    <li>Met with stakeholder to provide project updates and generate future requirements based on feedback</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -189,7 +187,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a3.png" title="" alt="" />
+                  <img src="static/img/bkl_logo.png" title="Big Kitty Labs Logo" alt="Big Kitty Labs Logo" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
@@ -197,13 +195,11 @@ const About = () => {
                   <h6>Software Engineering Intern</h6>
                   <label>Big Kitty Labs | Remote | Jun 2019 - Dec 2019 {`(6 months)`}</label>
                   <div className="rb-time">Full Time</div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
-                  </p>
+                  <ul>
+                    <li>Interfaced with multiple stakeholders directly throughout development lifecycle of various applications</li>
+                    <li>Ownership of 3 Ruby on Rails client projects, tasked with stakeholder 1:1s, and management of development task creation</li>
+                    <li>Gained experience with new technologies and cloud infrastructure with minimal support</li>
+                  </ul>
                 </div>
               </div>
             </div>
