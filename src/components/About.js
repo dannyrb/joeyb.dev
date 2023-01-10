@@ -23,7 +23,7 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                  {`I'm`} a Fullstack Developer with experience planning, developing, and delivering applications.{" "}
+                  {`I'm`} a Gamer, Rock Climber, and Coffee Enthusiast{" "}
                 </h3>
                 <p>
                   Programing is not only my career, {`it's`} also my passion. 
@@ -44,7 +44,7 @@ const About = () => {
                   </div>
                   <div className="col-auto">
                     <div className="media align-items-center">
-                      <span className="count">1+</span>
+                      <span className="count">2+</span>
                       <div className="media-body">
                         Years <br />
                         Experience.

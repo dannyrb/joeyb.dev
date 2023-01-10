@@ -13,17 +13,18 @@ const Services = () => {
     >
       <div className="container">
         <div className="title">
-          <h3>What I do?</h3>
+          <h3>Technical Skills</h3>
         </div>
         <div className="row">
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-mobile" />
               <div className="feature-content media-body">
-                <h5>Web Design</h5>
+                <h5>React</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lambda School gave me professional React experience
+                  while leading small team, non-profit work. React is my preffered
+                  JS framework.
                 </p>
               </div>
             </div>
@@ -32,7 +33,7 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-desktop" />
               <div className="feature-content media-body">
-                <h5>Web Development</h5>
+                <h5>Node</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -44,10 +45,10 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-target" />
               <div className="feature-content media-body">
-                <h5>SEO Marketing</h5>
+                <h5>Javascript</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Javascript is the first language I studied.  Learning
+                  Javascript was love at first sight, and lead to my first ever project - a simple calculator.
                 </p>
               </div>
             </div>
@@ -56,10 +57,9 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-mobile" />
               <div className="feature-content media-body">
-                <h5>Web Design</h5>
+                <h5>ASP.NET</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  
                 </p>
               </div>
             </div>
@@ -68,10 +68,9 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-desktop" />
               <div className="feature-content media-body">
-                <h5>Web Development</h5>
+                <h5>C#</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  
                 </p>
               </div>
             </div>
@@ -80,10 +79,9 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-target" />
               <div className="feature-content media-body">
-                <h5>SEO Marketing</h5>
+                <h5>REST APIs</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  
                 </p>
               </div>
             </div>
