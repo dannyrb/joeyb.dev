@@ -26,11 +26,7 @@ const About = () => {
                   {`I'm`} a Gamer, Rock Climber, and Coffee Enthusiast{" "}
                 </h3>
                 <p>
-                  Programing is not only my career, {`it's`} also my passion. 
-                  Nothing is more enjoyable than solving incredibly challenging problems
-                  while working with new technologies.  I look forward to meeting fellow
-                  developers and learning about technologies {`they're`} passionate about.
-                  I can rarely be found without a coffee in hand.
+                  
                 </p>
                 <div className="row">
                   <div className="col-auto">
@@ -56,14 +52,15 @@ const About = () => {
                   <a className="px-btn px-btn-theme" href="#contactus">
                     <span>Contact Me</span>
                   </a>
-                  <a className="px-btn px-btn-theme" href="#">
-                    <span>Portfolio</span>
+                  <a className="px-btn px-btn-theme" href="#experience">
+                    <span>Experience</span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/*
         <div className="separated" />
         <div className="title">
           <h3>Education &amp; Skills</h3>
@@ -105,7 +102,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              { //skill }
               <div className="skill-lt">
                 <h6>WordPress</h6>
                 <div className="skill-bar">
@@ -114,7 +111,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              { //skill }
               <div className="skill-lt">
                 <h6>Magento</h6>
                 <div className="skill-bar">
@@ -123,7 +120,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              { //skill }
               <div className="skill-lt">
                 <h6>UI/UX</h6>
                 <div className="skill-bar">
@@ -132,10 +129,11 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              { //skill }
             </div>
           </div>
         </div>
+        */}
         <div className="separated" />
         <div className="title">
           <h3>Experience</h3>
