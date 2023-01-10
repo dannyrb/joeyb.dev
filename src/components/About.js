@@ -134,7 +134,7 @@ const About = () => {
           </div>
         </div>
         */}
-        <div id="experience" className="separated" />
+        <div id="experience" className="separated pp-section pp-scrollable section" data-nav-tooltip="experience" />
         <div className="title">
           <h3>Experience</h3>
         </div>
