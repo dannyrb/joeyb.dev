@@ -134,7 +134,7 @@ const About = () => {
           </div>
         </div>
         */}
-        <div className="separated" />
+        <div id="experience" className="separated" />
         <div className="title">
           <h3>Experience</h3>
         </div>

@@ -7,8 +7,8 @@ const Testimonials = dynamic(() => import("./Testimonials"), {
 const Services = () => {
   return (
     <section
-      id="services"
-      data-nav-tooltip="Services"
+      id="skills"
+      data-nav-tooltip="skills"
       className="pp-section pp-scrollable section"
     >
       <div className="container">

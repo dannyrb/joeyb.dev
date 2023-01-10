@@ -83,10 +83,10 @@ const MenuWithOutBlog = () => {
           <span>About Me</span>
         </a>
       </li>
-      <li data-menuanchor="services">
-        <a className="nav-link" href="#services">
+      <li data-menuanchor="skills">
+        <a className="nav-link" href="#skills">
           <i className="ti-panel" />
-          <span>Services</span>
+          <span>Skills</span>
         </a>
       </li>
       <li data-menuanchor="work">
