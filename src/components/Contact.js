@@ -27,6 +27,22 @@ const Contact = () => {
                   <i className="ti-email" />
                   <span className="media-body">joey.ma.brown@gmail.com</span>
                 </li>
+                <li className="media">
+                  <a rel="noreferrer" target="_blank" href="https://github.com/joeymbrown">
+                  <i class="devicon-github-original"></i>
+                    <span className="media-body">
+                    Personal Github
+                    </span>
+                  </a>
+                </li>
+                <li className="media">
+                  <a rel="noreferrer" target="_blank" href="https://github.com/jbrownAMA">
+                    <i class="devicon-github-original"></i>
+                      <span className="media-body">
+                      Work Github
+                      </span>
+                  </a>
+                </li>
                 {/* <li className="media">
                   <i className="ti-mobile" />
                   <span className="media-body">+044 9696 9696 3636</span>
