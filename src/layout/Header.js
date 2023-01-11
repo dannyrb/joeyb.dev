@@ -38,7 +38,7 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/about-me.png" title="" alt="" />
+                <img src="static/img/about-me.png" title="Portrait Image of Joey" alt="Portrait Image of Joey" />
               </div>
               <h5>Joeyb</h5>
             </div>
@@ -46,21 +46,23 @@ const Header = ({ blog }) => {
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
         </div>
         <div className="nav justify-content-center social-icons">
-          <a href="#">
-            <i className="fab fa-facebook-f" />
+          <a href="https://github.com/JoeyMBrown">
+            <i className="fab devicon-github-original" />
           </a>
-          <a href="#">
-            <i className="fab fa-twitter" />
+          <a href="https://github.com/Jbrownama">
+            <i className="fab devicon-github-original" />
           </a>
-          <a href="#">
-            <i className="fab fa-instagram" />
+          <a href="https://www.linkedin.com/in/joseph-m-brown/">
+            <i className="fab devicon-linkedin-plain" />
           </a>
+          {/*
           <a href="#">
             <i className="fab fa-linkedin-in" />
           </a>
           <a href="#">
             <i className="fab fa-pinterest" />
           </a>
+          */}
         </div>
       </header>
     </Fragment>

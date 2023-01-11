@@ -107,7 +107,7 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>HTML5</h5>
                 <p>
-                  HTML is to blame for my first ever "webpage" that will
+                  HTML is to blame for my first ever {`"webpage"`} that will
                   forever mirror the internet of the {`90's`}.  Lambda School
                   guided me through semantic HTML and {`it's`} importance.
                 </p>
