@@ -67,7 +67,7 @@ const Services = () => {
                 <p>
                   Vue.js was my first exposure to a component based
                   application structure. This js framework helped
-                  develop my mental model of the use of components.
+                  develop my mental model of components within an application.
                 </p>
               </div>
             </div>
@@ -79,7 +79,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>C#</h5>
                 <p>
-                  
+                  I picked up C# at the AMA. C# proved to be my first
+                  run-in with a strongly typed language. C# exposed me
+                  to the benefits of errors being prevented at runtime.
                 </p>
               </div>
             </div>
@@ -91,7 +93,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>PostgreSQL</h5>
                 <p>
-                  
+                  PostgreSQL is one of many RDBMS {`I've`} come into
+                  contact with. I credit PostgreSQLs intuitive nature
+                  for my understanding of RDBMS core concepts.
                 </p>
               </div>
             </div>
@@ -103,7 +107,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>HTML5</h5>
                 <p>
-                  
+                  HTML is to blame for my first ever "webpage" that will
+                  forever mirror the internet of the {`90's`}.  Lambda School
+                  guided me through semantic HTML and {`it's`} importance.
                 </p>
               </div>
             </div>
@@ -115,7 +121,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>CSS</h5>
                 <p>
-                  
+                  Playing <a href="https://flexboxfroggy.com/">Flexbox Froggy</a> and <a href="https://mastery.games/post/flexboxzombies2/">Flexbox Zombies</a> helped
+                  me better understand the importance of semantic and
+                  well laid out HTML.
                 </p>
               </div>
             </div>

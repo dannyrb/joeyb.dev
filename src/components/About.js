@@ -30,7 +30,7 @@ const About = () => {
                   Evolved by night. I proudly wear the title {`"Video Game Jumper"`}, yupp.. that
                   annoying friend that talks you into playing a video game then plays it for
                   a week only to never play it again {`(you're welcome)`}. Shortly after moving
-                  to Columbus from smalltown Ohio I picked up rock climbing and enjoy
+                  to Columbus from smalltown Ohio I picked up rock climbing. I enjoy
                   bouldering and top rope climbing. My late night gaming bred a need for 
                   caffeine, and my lactose intolerance demanded that caffeine source be
                   dairy free - thus I have adapted to drink only black coffee!
