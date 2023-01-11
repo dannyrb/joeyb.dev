@@ -16,6 +16,20 @@ const Services = () => {
           <h3>Technical Skills</h3>
         </div>
         <div className="row">
+        <div className="col-sm-6 m-15px-tb">
+            <div className="feature-box-01 media">
+            <i class="icon devicon-javascript-plain colored theme-bg icon-mobile" />
+              {/*<i className="icon theme-bg icon-target" />*/}
+              <div className="feature-content media-body">
+                <h5>Javascript</h5>
+                <p>
+                  Javascript is the first language I studied.  Learning
+                  Javascript was love at first sight, and lead to my first
+                  ever project - a simple calculator.
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
               <i class=" theme-bg icon-mobile icon devicon-react-original-wordmark colored"></i>
@@ -35,23 +49,11 @@ const Services = () => {
               <i class="icon theme-bg devicon-nodejs-plain colored"></i>
               {/*<i className="icon theme-bg icon-desktop" />*/}
               <div className="feature-content media-body">
-                <h5>Node</h5>
+                <h5>Node.js</h5>
                 <p>
-                  
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
-            <i class="icon devicon-javascript-plain colored theme-bg icon-mobile" />
-              {/*<i className="icon theme-bg icon-target" />*/}
-              <div className="feature-content media-body">
-                <h5>Javascript</h5>
-                <p>
-                  Javascript is the first language I studied.  Learning
-                  Javascript was love at first sight, and lead to my first
-                  ever project - a simple calculator.
+                  My first brush with Node.js was at Lambda School.  I
+                  have built several APIs leveraging Express.js and
+                  consider it my primary backend framework.
                 </p>
               </div>
             </div>
@@ -63,7 +65,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>Vue.js</h5>
                 <p>
-                  
+                  Vue.js was my first exposure to a component based
+                  application structure. This js framework helped
+                  develop my mental model of the use of components.
                 </p>
               </div>
             </div>
