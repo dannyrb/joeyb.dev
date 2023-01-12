@@ -31,7 +31,7 @@ const Index = () => {
                   </p>
                   <div className="btn-bar">
                     <a className="px-btn px-btn-theme" href="Joseph_Brown_Resume.pdf" download>
-                      Donwload Resume
+                      Download Resume
                     </a>
                   </div>
                 </div>

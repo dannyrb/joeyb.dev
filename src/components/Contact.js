@@ -144,7 +144,7 @@ const Contact = () => {
                         onClick={sendEmail}
                       >
                         {" "}
-                        send message
+                        Send Message
                       </button>
                     </div>
                     <span
