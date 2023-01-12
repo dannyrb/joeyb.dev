@@ -1,4 +1,19 @@
 const Contact = () => {
+
+  function sendEmail(e) {
+    e.preventDefault();
+    const { form } = e.target;
+
+    let formObject = {
+      name: form[0].value,
+      email: form[1].value,
+      subject: form[2].value,
+      body: form[3].value
+    }
+
+    console.log(formObject);
+  }
+
   return (
     <section
       id="contactus"
@@ -53,7 +68,7 @@ const Contact = () => {
           <div className="col-lg-7 col-xl-8 m-15px-tb">
             <div className="contact-form">
               <h4>Shoot Me a Message</h4>
-              <form id="contact-form" method="POST">
+              <form id="contact-form" method="POST" action="function()">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -106,6 +121,7 @@ const Contact = () => {
                         className="px-btn px-btn-theme"
                         type="button"
                         value="Send"
+                        onClick={sendEmail}
                       >
                         {" "}
                         send message
