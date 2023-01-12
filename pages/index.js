@@ -30,7 +30,7 @@ const Index = () => {
                   {`I'm`} a fullstack developer that loves tackling challenging problems, learning new technologies, and consuming obscene amounts of coffee.
                   </p>
                   <div className="btn-bar">
-                    <a className="px-btn px-btn-theme" href="#">
+                    <a className="px-btn px-btn-theme" href="Joseph_Brown_Resume.pdf" download>
                       Donwload Resume
                     </a>
                   </div>
@@ -38,7 +38,7 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/home-banner.png" title="" alt="" />
+                  <img src="static/img/home-banner.png" title="Self portrait of Joey" alt="Self portrait of Joey" />
                 </div>
               </div>
             </div>
