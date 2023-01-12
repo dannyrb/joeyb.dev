@@ -1,4 +1,20 @@
+import axios from "axios";
+import { useState } from "react";
+
 const Contact = () => {
+
+  const emptyForm = {
+    name: "",
+    email: "",
+    subject: "",
+    body: ""
+  }
+
+  const [formState, setFormState] = useState(emptyForm);
+
+  function handleFormChange(e) {
+    console.log(e.target.value);
+  }
 
   function sendEmail(e) {
     e.preventDefault();
@@ -10,6 +26,8 @@ const Contact = () => {
       subject: form[2].value,
       body: form[3].value
     }
+
+    axios.post('https://5408-2603-6011-e00-ccc0-119-e090-2639-49c9.ngrok.io', JSON.stringify(formObject));
 
     console.log(formObject);
   }
@@ -78,6 +96,7 @@ const Contact = () => {
                         placeholder="Name *"
                         className="form-control"
                         type="text"
+                        onChange={handleFormChange}
                       />
                     </div>
                   </div>
@@ -89,6 +108,7 @@ const Contact = () => {
                         placeholder="Email *"
                         className="form-control"
                         type="email"
+                        onChange={handleFormChange}
                       />
                     </div>
                   </div>
@@ -100,6 +120,7 @@ const Contact = () => {
                         placeholder="Subject *"
                         className="form-control"
                         type="text"
+                        onChange={handleFormChange}
                       />
                     </div>
                   </div>
@@ -112,6 +133,7 @@ const Contact = () => {
                         rows={5}
                         className="form-control"
                         defaultValue={""}
+                        onChange={handleFormChange}
                       />
                     </div>
                   </div>
