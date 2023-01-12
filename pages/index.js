@@ -24,23 +24,21 @@ const Index = () => {
                   <h6>Hello, I am</h6>
                   <h1 className="font-alt">Joey Brown</h1>
                   <p className="lead">
-                    I Am Passionate <TypingAnimation />
+                  {`I'm`} a Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites, web
-                    services and online stores.
+                  {`I'm`} a fullstack developer that loves tackling challenging problems, learning new technologies, and consuming obscene amounts of coffee.
                   </p>
                   <div className="btn-bar">
-                    <a className="px-btn px-btn-theme" href="#">
-                      Donwload CV
+                    <a className="px-btn px-btn-theme" href="Joseph_Brown_Resume.pdf" download>
+                      Download Resume
                     </a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/home-banner.png" title="" alt="" />
+                  <img src="static/img/home-banner.png" title="Self portrait of Joey" alt="Self portrait of Joey" />
                 </div>
               </div>
             </div>
@@ -49,7 +47,7 @@ const Index = () => {
       </section>
       <About />
       <Services />
-      <Portfolio />
+      {/*<Portfolio /> */}
       {/* <Blog /> */}
       <Contact />
     </Layout>

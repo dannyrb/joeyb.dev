@@ -29,7 +29,7 @@ const Testimonials = () => {
   return (
     <Fragment>
       <div className="title">
-        <h3>Testimonials.</h3>
+        <h3>Testimonials</h3>
       </div>
       <Swiper {...props}>
         <SwiperSlide className="testimonial-01 media">

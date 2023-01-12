@@ -19,51 +19,55 @@ const About = () => {
           <div className="col-lg-6 m-15px-tb">
             <div className="about-info">
               <div className="title">
-                <h3>About me.</h3>
+                <h3>About me</h3>
               </div>
               <div className="about-text">
                 <h3>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                  experience.{" "}
+                  {`I'm`} a Gamer, Rock Climber, and Coffee Enthusiast{" "}
                 </h3>
                 <p>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                  experience. {`I'm`} from San Francisco. I code and create web
-                  elements for amazing people around the world. I like work with
-                  new people. New people new Experiences.
+                  {`I'm`} a Fullstack Developer by day - dinosaur dad on ARK: Survival 
+                  Evolved by night. I proudly wear the title {`"Video Game Jumper"`}, yupp.. that
+                  annoying friend that talks you into playing a video game then plays it for
+                  a week only to never play it again {`(you're welcome)`}. Shortly after moving
+                  to Columbus from smalltown Ohio I picked up rock climbing. I enjoy
+                  bouldering and top rope climbing. My late night gaming bred a need for 
+                  caffeine, and my lactose intolerance demanded that caffeine source be
+                  dairy free - thus I have adapted to drink only black coffee!
                 </p>
                 <div className="row">
                   <div className="col-auto">
                     <div className="media align-items-center">
-                      <span className="count">5k</span>
+                      <span className="count">1k+</span>
                       <div className="media-body">
-                        Projects <br />
-                        Completed.
+                        Course <br />
+                        Hours.
                       </div>
                     </div>
                   </div>
                   <div className="col-auto">
                     <div className="media align-items-center">
-                      <span className="count">3k</span>
+                      <span className="count">2+</span>
                       <div className="media-body">
-                        Satisfied <br />
-                        Clients.
+                        Years <br />
+                        Experience.
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#contactus">
                     <span>Contact Me</span>
                   </a>
-                  <a className="px-btn px-btn-theme" href="#">
-                    <span>Portfolio</span>
+                  <a className="px-btn px-btn-theme" href="#experience">
+                    <span>Experience</span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/*
         <div className="separated" />
         <div className="title">
           <h3>Education &amp; Skills</h3>
@@ -105,7 +109,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              { //skill }
               <div className="skill-lt">
                 <h6>WordPress</h6>
                 <div className="skill-bar">
@@ -114,7 +118,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              { //skill }
               <div className="skill-lt">
                 <h6>Magento</h6>
                 <div className="skill-bar">
@@ -123,7 +127,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              { //skill }
               <div className="skill-lt">
                 <h6>UI/UX</h6>
                 <div className="skill-bar">
@@ -132,34 +136,33 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* /skill */}
+              { //skill }
             </div>
           </div>
         </div>
-        <div className="separated" />
+        */}
+        <div id="experience" className="separated pp-section pp-scrollable section" data-nav-tooltip="experience" />
         <div className="title">
-          <h3>Experience.</h3>
+          <h3>Experience</h3>
         </div>
         <div className="resume-box">
           <div className="resume-row">
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a1.png" title="" alt="" />
+                  <img src="static/img/ama_logo_spotlight.png" title="AMA Logo" alt="AMA Logo" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
+                  <h6>Software Engineer</h6>
+                  <label>American Motorcyclist Association | Hybrid | Feb 2022 - Present {`(1 year)`}</label>
                   <div className="rb-time">Full Time</div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
-                  </p>
+                  <ul>
+                    <li>Sole maintainer of 40 applications that spanned 6 domains</li>
+                    <li>Created software simplifying registration for 800+ vendors and 40,000+ event attendees</li>
+                    <li>Modernized existing web applications to improve the mobile experience and performance for users</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -168,21 +171,19 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a2.png" title="" alt="" />
+                  <img src="static/img/bloom_tech_logo.png" title="Bloom Technical Institute Logo" alt="Bloom Technical Institute Logo" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
+                  <h6>Engineering Student</h6>
+                  <label>Lambda School {`(now Bloom Institute of Technology)`} | Remote | Jun 2021 - Nov 2021 {`(6 months)`}</label>
                   <div className="rb-time">Full Time</div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
-                  </p>
+                  <ul>
+                    <li>Lead a team of developers building software for a non-profit organization</li>
+                    <li>Orchestrated team standups, 1 on 1 unblocking sessions, and pair programming</li>
+                    <li>Met with stakeholder to provide project updates and generate future requirements based on feedback</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -191,21 +192,19 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a3.png" title="" alt="" />
+                  <img src="static/img/bkl_logo.png" title="Big Kitty Labs Logo" alt="Big Kitty Labs Logo" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
+                  <h6>Software Engineering Intern</h6>
+                  <label>Big Kitty Labs | Remote | Jun 2019 - Dec 2019 {`(6 months)`}</label>
                   <div className="rb-time">Full Time</div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
-                  </p>
+                  <ul>
+                    <li>Interfaced with multiple stakeholders directly throughout development lifecycle of various applications</li>
+                    <li>Ownership of 3 Ruby on Rails client projects, tasked with stakeholder 1:1s, and management of development task creation</li>
+                    <li>Gained experience with new technologies and cloud infrastructure with minimal support</li>
+                  </ul>
                 </div>
               </div>
             </div>

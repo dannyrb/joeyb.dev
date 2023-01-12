@@ -38,7 +38,7 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/about-me.png" title="" alt="" />
+                <img src="static/img/about-me.png" title="Portrait Image of Joey" alt="Portrait Image of Joey" />
               </div>
               <h5>Joeyb</h5>
             </div>
@@ -46,21 +46,23 @@ const Header = ({ blog }) => {
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
         </div>
         <div className="nav justify-content-center social-icons">
-          <a href="#">
-            <i className="fab fa-facebook-f" />
+          <a href="https://github.com/JoeyMBrown">
+            <i className="fab devicon-github-original" />
           </a>
-          <a href="#">
-            <i className="fab fa-twitter" />
+          <a href="https://github.com/Jbrownama">
+            <i className="fab devicon-github-original" />
           </a>
-          <a href="#">
-            <i className="fab fa-instagram" />
+          <a href="https://www.linkedin.com/in/joseph-m-brown/">
+            <i className="fab devicon-linkedin-plain" />
           </a>
+          {/*
           <a href="#">
             <i className="fab fa-linkedin-in" />
           </a>
           <a href="#">
             <i className="fab fa-pinterest" />
           </a>
+          */}
         </div>
       </header>
     </Fragment>
@@ -83,16 +85,16 @@ const MenuWithOutBlog = () => {
           <span>About Me</span>
         </a>
       </li>
-      <li data-menuanchor="services">
-        <a className="nav-link" href="#services">
-          <i className="ti-panel" />
-          <span>Services</span>
+      <li data-menuanchor="experience">
+        <a className="nav-link" href="#experience">
+          <i className="ti-bookmark-alt" />
+          <span>Experience</span>
         </a>
       </li>
-      <li data-menuanchor="work">
-        <a className="nav-link" href="#work">
-          <i className="ti-bookmark-alt" />
-          <span>Portfolio</span>
+      <li data-menuanchor="skills">
+        <a className="nav-link" href="#skills">
+          <i className="ti-panel" />
+          <span>Skills</span>
         </a>
       </li>
       {/* <li data-menuanchor="blog" className="blog">
