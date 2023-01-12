@@ -4,32 +4,27 @@ import { useState } from "react";
 const Contact = () => {
 
   const emptyForm = {
-    name: "",
-    email: "",
-    subject: "",
-    body: ""
+    Name: "",
+    Email: "",
+    Subject: "",
+    Message: ""
   }
 
   const [formState, setFormState] = useState(emptyForm);
 
   function handleFormChange(e) {
-    console.log(e.target.value);
+    setFormState({...formState, [e.target.name]: e.target.value} )
   }
 
   function sendEmail(e) {
     e.preventDefault();
-    const { form } = e.target;
 
-    let formObject = {
-      name: form[0].value,
-      email: form[1].value,
-      subject: form[2].value,
-      body: form[3].value
-    }
+    /*axios.post('http://localhost:5000/', formState)
+    .then((res) => {
+      console.log(res);
+    })*/
 
-    axios.post('https://5408-2603-6011-e00-ccc0-119-e090-2639-49c9.ngrok.io', JSON.stringify(formObject));
-
-    console.log(formObject);
+    setFormState(emptyForm);
   }
 
   return (
@@ -97,6 +92,7 @@ const Contact = () => {
                         className="form-control"
                         type="text"
                         onChange={handleFormChange}
+                        value={formState.Name}
                       />
                     </div>
                   </div>
@@ -109,6 +105,7 @@ const Contact = () => {
                         className="form-control"
                         type="email"
                         onChange={handleFormChange}
+                        value={formState.Email}
                       />
                     </div>
                   </div>
@@ -121,19 +118,20 @@ const Contact = () => {
                         className="form-control"
                         type="text"
                         onChange={handleFormChange}
+                        value={formState.Subject}
                       />
                     </div>
                   </div>
                   <div className="col-md-12">
                     <div className="form-group">
                       <textarea
-                        name="message"
+                        name="Message"
                         id="message"
                         placeholder="Your message *"
                         rows={5}
                         className="form-control"
-                        defaultValue={""}
                         onChange={handleFormChange}
+                        value={formState.Message}
                       />
                     </div>
                   </div>
