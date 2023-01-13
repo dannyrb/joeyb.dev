@@ -11,11 +11,12 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <img src="static/img/about-me.png" title="" alt="" />
+                  <img src="static/img/about-me.png" title="Joey Brown Self Portrait" alt="Joey Brown Self Portrait" />
                 </div>
               </div>
             </div>
           </div>
+
           <div className="col-lg-6 m-15px-tb">
             <div className="about-info">
               <div className="title">
@@ -23,7 +24,7 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                  {`I'm`} a Gamer, Rock Climber, and Coffee Enthusiast{" "}
+                  {`I'm`} a Gamer, Rock Climber, and Coffee Enthusiast
                 </h3>
                 <p>
                   {`I'm`} a Fullstack Developer by day - dinosaur dad on ARK: Survival 
