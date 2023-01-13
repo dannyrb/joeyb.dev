@@ -16,6 +16,7 @@ const About = () => {
               </div>
             </div>
           </div>
+
           <div className="col-lg-6 m-15px-tb">
             <div className="about-info">
               <div className="title">
