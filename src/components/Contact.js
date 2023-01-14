@@ -22,19 +22,57 @@ const Contact = () => {
     setFormState( {...formState, [e.target.name]: e.target.value} )
   }
 
+  function validateFormInput() {
+    const error = {
+      message: "",
+      error: false
+    };
+
+    if(formState.name.length < 3) {
+
+      error.message = "Name can not be blank";
+      error.error = true;
+
+    } else if (formState.email.indexOf("@") === -1 || formState.email.indexOf(".com") === -1) {
+
+      error.message = "Please enter a valid email.";
+      error.error = true;
+
+    } else if (formState.subject.length < 3) {
+
+      error.message = "Subject can not be blank";
+      error.error = true;
+
+    } else if (formState.message.length < 3) {
+
+      error.message = "Message can not be blank";
+      error.error = true;
+
+    }
+
+    setContactFormMessageState(error);
+    return error;
+  }
+
   function sendEmail(e) {
     e.preventDefault();
+
+    const validationError = validateFormInput();
+
+    if(validationError.error) {
+      return;
+    }
 
     axios.post('http://localhost:5000/', formState)
     .then((res) => {
       setContactFormMessageState({
-          error: false,
+        error: false,
         message: res.data.message
       });
     })
     .catch((res) => {
       setContactFormMessageState({
-        message: "error",
+        message: "Error submitting contact form - please shoot me an email!",
         error: true
       });
     })
