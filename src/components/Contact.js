@@ -4,25 +4,78 @@ import { useState } from "react";
 const Contact = () => {
 
   const emptyForm = {
-    Name: "",
-    Email: "",
-    Subject: "",
-    Message: ""
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
+  }
+
+  const contactFormMessageDefaultState = {
+    message: "",
+    error: false
   }
 
   const [formState, setFormState] = useState(emptyForm);
+  const [contactFormMessageState, setContactFormMessageState] = useState(contactFormMessageDefaultState);
 
   function handleFormChange(e) {
-    setFormState({...formState, [e.target.name]: e.target.value} )
+    setFormState( {...formState, [e.target.name]: e.target.value} )
+  }
+
+  function validateFormInput() {
+    const error = {
+      message: "",
+      error: false
+    };
+
+    if(formState.name.length < 3) {
+
+      error.message = "Name can not be blank";
+      error.error = true;
+
+    } else if (formState.email.indexOf("@") === -1) {
+
+      error.message = "Please enter a valid email.";
+      error.error = true;
+
+    } else if (formState.subject.length < 3) {
+
+      error.message = "Subject can not be blank";
+      error.error = true;
+
+    } else if (formState.message.length < 3) {
+
+      error.message = "Message can not be blank";
+      error.error = true;
+
+    }
+
+    setContactFormMessageState(error);
+    return error;
   }
 
   function sendEmail(e) {
     e.preventDefault();
 
-    /*axios.post('http://localhost:5000/', formState)
+    const validationError = validateFormInput();
+
+    if(validationError.error) {
+      return;
+    }
+
+    axios.post('https://custom-contact-form-api.vercel.app/api/', formState)
     .then((res) => {
-      console.log(res);
-    })*/
+      setContactFormMessageState({
+        error: false,
+        message: res.data.message
+      });
+    })
+    .catch((res) => {
+      setContactFormMessageState({
+        message: "Error submitting contact form - please shoot me an email!",
+        error: true
+      });
+    })
 
     setFormState(emptyForm);
   }
@@ -86,52 +139,52 @@ const Contact = () => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        name="Name"
+                        name="name"
                         id="name"
                         placeholder="Name *"
                         className="form-control"
                         type="text"
                         onChange={handleFormChange}
-                        value={formState.Name}
+                        value={formState.name}
                       />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        name="Email"
+                        name="email"
                         id="email"
                         placeholder="Email *"
                         className="form-control"
                         type="email"
                         onChange={handleFormChange}
-                        value={formState.Email}
+                        value={formState.email}
                       />
                     </div>
                   </div>
                   <div className="col-12">
                     <div className="form-group">
                       <input
-                        name="Subject"
+                        name="subject"
                         id="subject"
                         placeholder="Subject *"
                         className="form-control"
                         type="text"
                         onChange={handleFormChange}
-                        value={formState.Subject}
+                        value={formState.subject}
                       />
                     </div>
                   </div>
                   <div className="col-md-12">
                     <div className="form-group">
                       <textarea
-                        name="Message"
+                        name="message"
                         id="message"
                         placeholder="Your message *"
                         rows={5}
                         className="form-control"
                         onChange={handleFormChange}
-                        value={formState.Message}
+                        value={formState.message}
                       />
                     </div>
                   </div>
@@ -147,20 +200,8 @@ const Contact = () => {
                         Send Message
                       </button>
                     </div>
-                    <span
-                      id="suce_message"
-                      className="text-success"
-                      style={{ display: "none" }}
-                    >
-                      Message Sent Successfully
-                    </span>
-                    <span
-                      id="err_message"
-                      className="text-danger"
-                      style={{ display: "none" }}
-                    >
-                      Message Sending Failed
-                    </span>
+                    { !contactFormMessageState.error && <span id="suce_message" className="text-success"> { contactFormMessageState.message } </span> }
+                    { contactFormMessageState.error && <span id="err_message" className="text-danger" > { contactFormMessageState.message } </span> }
                   </div>
                 </div>
               </form>
