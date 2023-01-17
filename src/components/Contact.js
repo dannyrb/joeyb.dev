@@ -33,7 +33,7 @@ const Contact = () => {
       error.message = "Name can not be blank";
       error.error = true;
 
-    } else if (formState.email.indexOf("@") === -1 || formState.email.indexOf(".com") === -1) {
+    } else if (formState.email.indexOf("@") === -1) {
 
       error.message = "Please enter a valid email.";
       error.error = true;
@@ -63,7 +63,7 @@ const Contact = () => {
       return;
     }
 
-    axios.post('http://localhost:5000/', formState)
+    axios.post('https://custom-contact-form-api.vercel.app/api/', formState)
     .then((res) => {
       setContactFormMessageState({
         error: false,
