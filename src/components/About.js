@@ -48,7 +48,7 @@ const About = () => {
                   </div>
                   <div className="col-auto">
                     <div className="media align-items-center">
-                      <span className="count">2+</span>
+                      <span className="count">3+</span>
                       <div className="media-body">
                         Years <br />
                         Experience.
@@ -151,13 +151,34 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
+                  <img src="static/img/prospira_logo.jpg" title="Prospira Logo" alt="Prospira Logo" />
+                </div>
+              </div>
+              <div className="col-sm-9 col-md-9 col-xl-10">
+                <div className="rb-right">
+                  <h6>Full Stack Engineer</h6>
+                  <label>Prospira America Corporation | Hybrid | May 2023 - Present</label>
+                  <div className="rb-time">Full Time</div>
+                  <ul>
+                    <li>Developed software to simplify inventory process focused on user experience, scalability, and speed (millions of parts)</li>
+                    <li>Established project management solution to track application progress and status for all existing applications</li>
+                    <li>Implemented custom Storybook solution to document and improve efficiency with internal component library</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="resume-row">
+            <div className="row">
+              <div className="col-sm-3 col-md-3 col-xl-2">
+                <div className="rb-left">
                   <img src="static/img/ama_logo_spotlight.png" title="AMA Logo" alt="AMA Logo" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Engineer</h6>
-                  <label>American Motorcyclist Association | Hybrid | Feb 2022 - Present {`(1 year)`}</label>
+                  <label>American Motorcyclist Association | Hybrid | Feb 2022 - May 2023 {`(1.5 years)`}</label>
                   <div className="rb-time">Full Time</div>
                   <ul>
                     <li>Sole maintainer of 40 applications that spanned 6 domains</li>
