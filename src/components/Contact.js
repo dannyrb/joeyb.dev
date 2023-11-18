@@ -117,7 +117,7 @@ const Contact = () => {
                   </a>
                 </li>
                 <li className="media">
-                  <a rel="noreferrer" target="_blank" href="https://github.com/jbrownAMA">
+                  <a rel="noreferrer" target="_blank" href="https://github.com/jmbrownprospira">
                     <i class="devicon-github-original"></i>
                       <span className="media-body">
                       Work Github
