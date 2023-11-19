@@ -37,23 +37,23 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>React</h5>
                 <p>
-                  Lambda School gave me professional React experience
-                  while leading small team non-profit work. React is my go-to
-                  JS library.
+                  React is my go-to frontend library. I am in my happy
+                  place when using it.  I continue to hone my react skills
+                  and am currently focusing on component composition. 
                 </p>
               </div>
             </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i class="icon theme-bg devicon-nodejs-plain colored"></i>
+              <i class="icon theme-bg devicon-laravel-plain colored"></i>
               {/*<i className="icon theme-bg icon-desktop" />*/}
               <div className="feature-content media-body">
-                <h5>Node.js</h5>
+                <h5>Laravel</h5>
                 <p>
-                  My first brush with Node.js was at Lambda School.  I
-                  have built several APIs leveraging Express.js and
-                  consider it my primary backend framework.
+                  Laravel has been an absolute breeze to work with.
+                  I'm working with it currently and feel the documentation
+                  is among the best I've ever seen.
                 </p>
               </div>
             </div>
@@ -61,13 +61,13 @@ const Services = () => {
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
               {/*<i className="icon theme-bg icon-mobile" />*/}
-              <i class="icon theme-bg devicon-vuejs-plain-wordmark colored"></i>
+              <i class="icon theme-bg devicon-php-plain colored"></i>
               <div className="feature-content media-body">
-                <h5>Vue.js</h5>
+                <h5>PHP</h5>
                 <p>
-                  Vue.js was my first exposure to a component based
-                  application structure. This js framework helped
-                  develop my mental model of components within an application.
+                  I use PHP daily.  Coming from a mixed background of
+                  Javascript and C#, PHP concepts were not alien.  It
+                  has certainly strengthed my understand of OOP.
                 </p>
               </div>
             </div>
@@ -89,13 +89,13 @@ const Services = () => {
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
               {/*<i className="icon theme-bg icon-target" />*/}
-              <i class="icon theme-bg devicon-postgresql-plain-wordmark colored"></i>
+              <i class="icon theme-bg devicon-vuejs-plain-wordmark colored"></i>
               <div className="feature-content media-body">
-                <h5>PostgreSQL</h5>
+                <h5>Vue.js</h5>
                 <p>
-                  PostgreSQL is one of many RDBMS {`I've`} come into
-                  contact with. I credit PostgreSQLs intuitive nature
-                  for my understanding of RDBMS core concepts.
+                  Vue.js was my first exposure to a component based
+                  application structure. This js framework helped
+                  develop my mental model of components within an application.
                 </p>
               </div>
             </div>

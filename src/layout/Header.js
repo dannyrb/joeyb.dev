@@ -49,7 +49,7 @@ const Header = ({ blog }) => {
           <a href="https://github.com/JoeyMBrown">
             <i className="fab devicon-github-original" />
           </a>
-          <a href="https://github.com/Jbrownama">
+          <a href="https://github.com/jmbrownprospira">
             <i className="fab devicon-github-original" />
           </a>
           <a href="https://www.linkedin.com/in/joseph-m-brown/">
