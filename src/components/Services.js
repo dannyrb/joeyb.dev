@@ -52,8 +52,8 @@ const Services = () => {
                 <h5>Laravel</h5>
                 <p>
                   Laravel has been an absolute breeze to work with.
-                  I'm working with it currently and feel the documentation
-                  is among the best I've ever seen.
+                  {`I'm`} working with it currently and feel the documentation
+                  is among the best {`I've`} ever seen.
                 </p>
               </div>
             </div>
